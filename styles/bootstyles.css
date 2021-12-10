@@ -1,0 +1,104 @@
+.tableau-header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    z-index: 1;
+}
+
+.nav-index{
+    position:absolute;
+    z-index: 2;
+    top: 25px;
+    right: 300px;
+    color:white;
+    list-style-type: none;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-about{
+    position:absolute;
+    z-index: 2;
+    top: 25px;
+    right: 200px;
+    color:white;
+    list-style-type: none;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-tableau{
+    position:absolute;
+    z-index: 2;
+    top: 25px;
+    right: 100px;
+    color:white;
+    list-style-type: none;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+    color:white
+}
+
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+.tableau-title{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    color:white;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color:blanchedalmond;
+    text-decoration-thickness: 5px;
+    top:150px;
+    font-size:40px;
+}
+
+.tableau-body{
+    
+    z-index:1;
+    padding-top:505px;
+    left:50px;
+    right:50px;
+    padding-bottom:205px;
+}
+
+.tableau-text{
+    position:relative;
+    z-index: 2;
+    color:black;
+    text-align:center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.tableau-footer{
+    
+    z-index:1;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    height:100px;
+}
+
+.tableau-footer-text{
+    position:relative;
+    z-index: 2;
+    color:black;
+    text-align: center;
+}
+
+.table-desc{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
